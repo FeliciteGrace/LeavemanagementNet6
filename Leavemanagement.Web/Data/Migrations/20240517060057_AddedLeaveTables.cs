@@ -10,7 +10,7 @@ namespace Leavemanagement.Web.Data.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "LeaveTypes",
+                name: "LeaveTypes", 
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
